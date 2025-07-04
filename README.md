@@ -23,3 +23,10 @@ News entries are stored in `data/news.json`. The `news.html` page reads this fil
 ## About page
 
 The `about.html` file contains a brief profile of the artist. Feel free to edit the text or add images as needed.
+
+## Index page
+
+`index.html` shows the latest news and a scrolling preview of works. The
+JavaScript in `js/index.js` loads up to five items from `data/news.json` and ten
+items from `data/works.json`. After editing these files, run `python3
+generator.py` to regenerate the detail pages.
