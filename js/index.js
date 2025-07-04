@@ -16,6 +16,8 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(res => res.json())
         .then(list => {
             const container = document.getElementById('top-works');
+            const top = list.slice(0, 10);
+            const items = top.concat(top); // duplicate for seamless loop
             const top = list.slice(0,10);
             const items = top.concat(top); // duplicate for smooth loop
             items.forEach(work => {
@@ -34,5 +36,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 container.appendChild(a);
             });
+            container.style.setProperty('--item-count', items.length);
         });
 });

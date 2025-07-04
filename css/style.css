@@ -50,6 +50,7 @@ body {
 
 .background-art {
     position: absolute;
+
 .bg {
     position: fixed;
     top: 0;
@@ -182,6 +183,7 @@ section {
 }
 
 .hero-section .background-art {
+
 .hero-section .bg {
     position: absolute;
     top: 0;
@@ -227,6 +229,11 @@ section {
 }
 
 .section-works .slider {
+    display: inline-flex;
+    gap: 1rem;
+    white-space: nowrap;
+    animation: marquee 30s linear infinite;
+    width: calc(var(--item-count) * 200px + (var(--item-count) - 1) * 1rem);
     display: flex;
     gap: 1rem;
     animation: marquee 30s linear infinite;
