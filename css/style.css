@@ -140,3 +140,10 @@ body {
     color: #666;
     margin-bottom: 0.5rem;
 }
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    line-height: 1.6;
+}
+}
