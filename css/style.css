@@ -50,6 +50,8 @@ body {
 
 .background-art {
     position: absolute;
+.bg {
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -166,6 +168,7 @@ section {
 }
 
 .hero-section .background-art {
+.hero-section .bg {
     position: absolute;
     top: 0;
     left: 0;
@@ -213,6 +216,7 @@ section {
     display: flex;
     gap: 1rem;
     animation: marquee 30s linear infinite;
+    animation: slide-left 30s linear infinite;
 }
 
 .section-works .work-card {
@@ -234,6 +238,7 @@ section {
 }
 
 @keyframes marquee {
+@keyframes slide-left {
     from { transform: translateX(0); }
     to { transform: translateX(-50%); }
 }
