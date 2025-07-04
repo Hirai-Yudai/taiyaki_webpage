@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "桜と少女",
+    "date": "2023-03-01",
+    "tags": ["春", "桜", "少女"],
+    "thumbnail": "images/sample1.jpg",
+    "image": "images/sample1.jpg",
+    "description": "桜の下で微笑む少女のイラストです。"
+  },
+  {
+    "id": "2",
+    "title": "夏の海",
+    "date": "2023-07-15",
+    "tags": ["夏", "海"],
+    "thumbnail": "images/sample2.jpg",
+    "image": "images/sample2.jpg",
+    "description": "青い海と空を背景にしたイラストです。"
+  }
+]

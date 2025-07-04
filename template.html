@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title} - Yotsuba Haru</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav id="nav" class="nav">
+            <ul>
+                <li><a href="../index.html">トップ</a></li>
+                <li><a href="../works.html">作品一覧</a></li>
+                <li><a href="../#news">お知らせ</a></li>
+                <li><a href="../#about">About</a></li>
+            </ul>
+            <div id="hamburger" class="hamburger">☰</div>
+        </nav>
+    </header>
+    <main class="work-detail">
+        <h1>{title}</h1>
+        <p class="date">{date}</p>
+        <p class="tags">{tags}</p>
+        <img src="../{image}" alt="{title}" loading="lazy">
+        <p class="description">{description}</p>
+    </main>
+    <script src="../js/hamburger.js"></script>
+</body>
+</html>
