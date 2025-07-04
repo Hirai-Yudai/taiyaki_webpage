@@ -9,6 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body class="index-page">
+</head>
+<body class="index-page">
+    <div class="bg" style="background-image:url('images/sample1.jpg');"></div>
     <header>
         <nav id="nav" class="nav">
             <ul>
@@ -16,6 +19,8 @@
                 <li><a href="works.html">作品一覧</a></li>
                 <li><a href="news.html">お知らせ</a></li>
                 <li><a href="about.html">About</a></li>
+                <li><a href="#news">お知らせ</a></li>
+                <li><a href="#about">About</a></li>
             </ul>
             <div id="hamburger" class="hamburger">☰</div>
         </nav>
@@ -46,5 +51,10 @@
     <script src="js/index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>AOS.init();</script>
+    <main class="hero">
+        <h1 id="artist-name"></h1>
+    </main>
+    <script src="js/hamburger.js"></script>
+    <script src="js/detect-lang.js"></script>
 </body>
 </html>
