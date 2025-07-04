@@ -50,6 +50,9 @@ body {
 
 .background-art {
     position: absolute;
+
+.bg {
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -165,7 +168,6 @@ section {
     opacity: 1;
     transform: translateY(0);
 }
-
 .hero-section {
     position: relative;
     height: 100vh;
@@ -181,6 +183,8 @@ section {
 }
 
 .hero-section .background-art {
+
+.hero-section .bg {
     position: absolute;
     top: 0;
     left: 0;
@@ -230,6 +234,10 @@ section {
     white-space: nowrap;
     animation: marquee 30s linear infinite;
     width: calc(var(--item-count) * 200px + (var(--item-count) - 1) * 1rem);
+    display: flex;
+    gap: 1rem;
+    animation: marquee 30s linear infinite;
+    animation: slide-left 30s linear infinite;
 }
 
 .section-works .work-card {
@@ -251,6 +259,7 @@ section {
 }
 
 @keyframes marquee {
+@keyframes slide-left {
     from { transform: translateX(0); }
     to { transform: translateX(-50%); }
 }
