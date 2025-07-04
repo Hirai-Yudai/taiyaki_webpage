@@ -19,3 +19,4 @@ repository. Add your own images with matching file names or adjust the paths in
 ## Updating news
 
 News entries are stored in `data/news.json`. The `news.html` page reads this file via JavaScript and lists each item. Edit the JSON to add or remove announcements.
+=======
