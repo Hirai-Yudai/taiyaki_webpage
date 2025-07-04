@@ -123,3 +123,20 @@ body {
 .work-card:hover {
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
+
+.news-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.news-item {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+.news-item .date {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+}
